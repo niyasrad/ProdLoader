@@ -1,0 +1,32 @@
+.home{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.home-top{
+    height: 100vh;
+    text-align: center;
+    font-family: 'Poiret One', cursive;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    justify-content: center;
+    align-items: center;
+}
+.home-top.active{
+    height: auto;
+    padding-top: 50px;
+    transition: all 0.3s ease-in-out;
+}
+.home-top button{
+    padding: 10px;
+    width: 320px;
+    font-size: 22px;
+    font-family: 'Cormorant', serif;
+    border: none;
+}
+.home-main{
+    width: 90%;
+}
