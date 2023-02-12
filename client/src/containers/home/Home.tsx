@@ -9,7 +9,7 @@ export default function Home() {
     const [loading, setLoading] = useState<boolean>(false);
     const handleClick = () => {
         setLoading(true);
-        fetch("http://localhost:5000/images")
+        fetch("http://prod-loader-pbqf.vercel.app/images")
         .then((res) => res.json())
         .then((res) => {
             setData(res.data)
